@@ -1,4 +1,3 @@
-// perform a get request
 const { get } = require('http');
 const bl = require('bl');
 

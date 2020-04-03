@@ -1,6 +1,5 @@
 'use strict'
 const { get } = require('http');
-// const bl = require('bl');
 let count = 0;
 
 const [,,...urls] = process.argv;

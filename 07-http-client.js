@@ -1,5 +1,5 @@
 const http = require('http');
-// Write a program that does an http GET request to the url provided
+
 const [,,url] = process.argv;
 
 http.get(url, (response) => {
